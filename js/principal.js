@@ -24,7 +24,7 @@ function ocultarAlerta() {
 }
 
 function cerrarSesion() {
-    fetch('http://localhost:8083/login/logout-async', {
+    fetch('http://localhost:8083/login/logout-feign', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
